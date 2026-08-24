@@ -17,3 +17,9 @@ resource "azurerm_resource_group" "rgs" {
     name = "github-action"
     location = "central india"
   }
+
+resource "azurerm_resource_group" "rgs" {
+   
+    name = "rg-pawan"
+    location = "central india"
+  }
